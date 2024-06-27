@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666664 8.466667"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="Cmd_ValveMPLiftUpper.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   style="enable-background:new"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path843"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="2.1166667,292.88384"
+       end_point="2.1166667,296.97827"
+       center_point="2.1166667,294.93105"
+       id="path-effect889"
+       is_visible="true"
+       mode="vertical"
+       discard_orig_path="false"
+       fuse_paths="true"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="2.1166667,292.76665"
+       end_point="2.1166667,296.99998"
+       center_point="2.1166667,294.88332"
+       id="path-effect886"
+       is_visible="true"
+       mode="vertical"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="1.9734763,293.00921"
+       end_point="1.9734763,297.24255"
+       center_point="1.9734763,295.12588"
+       id="path-effect878"
+       is_visible="true"
+       mode="vertical"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="2.004455,293.03283"
+       end_point="2.004455,297.26617"
+       center_point="2.004455,295.1495"
+       id="path-effect874"
+       is_visible="true"
+       mode="vertical"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false" />
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path7" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.627417"
+     inkscape:cx="14.893437"
+     inkscape:cy="20.660776"
+     inkscape:document-units="px"
+     inkscape:current-layer="g1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1649"
+     inkscape:window-height="1266"
+     inkscape:window-x="488"
+     inkscape:window-y="290"
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="true"
+     showguides="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-288.53332)">
+    <g
+       id="g2"
+       transform="matrix(0,1,-0.76497104,0,228.26092,288.64015)"
+       style="fill:none;stroke:#b3b3b3;stroke-width:1.14335">
+      <g
+         id="g1"
+         transform="rotate(-180,4.1265034,293.26266)">
+        <path
+           style="fill:none;stroke:#b3b3b3;stroke-width:0.30251px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+           d="m 0.6006945,289.13957 v 6.39961 l 2.8187365,-2.1332 v -2.13321 z"
+           id="path2"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#b3b3b3;stroke-width:0.30251px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+           d="m 7.6523122,295.53918 v -6.39961 l -2.818736,2.1332 v 2.13321 z"
+           id="path3"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;stroke:#b3b3b3;stroke-width:0.30251px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ConcaveTriangle);enable-background:new"
+           d="m 4.1265036,293.7168 v 3.0202"
+           id="path4" />
+        <path
+           style="fill:none;stroke:#b3b3b3;stroke-width:0.30251px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#ConcaveTriangle);enable-background:new"
+           d="M 7.6274007,292.31891 H 6.120622"
+           id="path5" />
+        <rect
+           style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#b3b3b3;stroke-width:0.30251;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;enable-background:new;stop-color:#000000"
+           id="rect5"
+           width="2.1399841"
+           height="1.3834864"
+           x="-293.37936"
+           y="-4.8328571"
+           transform="matrix(0,-1,-1,0,0,0)" />
+      </g>
+    </g>
+  </g>
+</svg>
