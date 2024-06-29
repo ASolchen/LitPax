@@ -7,7 +7,7 @@
    viewBox="0 0 8.4666664 8.466667"
    version="1.1"
    id="svg8"
-   sodipodi:docname="Cmd_Snapshot.svg"
+   sodipodi:docname="Nav_Trend.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    style="enable-background:new"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -157,26 +157,14 @@
       <g
          id="g1447"
          transform="translate(0.35941074)">
-        <rect
-           style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:0.529169;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect1"
-           width="6.9609237"
-           height="4.8433232"
-           x="0.44649211"
-           y="291.50568" />
-        <rect
-           style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:0.529169;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-           id="rect2"
-           width="3.3815975"
-           height="1.7598027"
-           x="1.556352"
-           y="289.72601" />
-        <circle
-           style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="path2"
-           cx="3.926954"
-           cy="293.97382"
-           r="1.3559896" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#808080;stroke-width:0.396875"
+           d="m 0.28893327,289.06249 v 7.34219 H 7.6311209"
+           id="path1" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#808080;stroke-width:0.396875"
+           d="m 0.90348794,295.46209 c 0,0 1.45438926,-3.175 1.69933896,-3.02617 0.2449498,0.14883 1.4390801,1.17409 1.5462456,1.17409 0.1071655,0 0.7960868,0.19844 1.408461,-1.17409 0.6123745,-1.37253 1.883052,-2.8112 1.883052,-2.8112"
+           id="path2" />
       </g>
     </g>
   </g>

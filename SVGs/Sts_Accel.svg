@@ -2,39 +2,23 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="32"
-   height="32"
-   viewBox="0 0 8.4666664 8.466667"
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333335"
    version="1.1"
    id="svg8"
-   sodipodi:docname="CmdBtnFace_Disabled.svg"
+   enable-background="new"
+   sodipodi:docname="Sts_Accel.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   style="enable-background:new"
+   xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <defs
-     id="defs2">
-    <marker
-       inkscape:stockid="Arrow1Lend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="Arrow1Lend"
-       style="overflow:visible"
-       inkscape:isstock="true">
-      <path
-         id="path843"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt"
-         transform="matrix(-0.8,0,0,-0.8,-10,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <inkscape:path-effect
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
+     id="defs2"><inkscape:path-effect
        effect="mirror_symmetry"
        start_point="2.1166667,292.88384"
        end_point="2.1166667,296.97827"
@@ -44,8 +28,7 @@
        mode="vertical"
        discard_orig_path="false"
        fuse_paths="true"
-       oposite_fuse="false" />
-    <inkscape:path-effect
+       oposite_fuse="false" /><inkscape:path-effect
        effect="mirror_symmetry"
        start_point="2.1166667,292.76665"
        end_point="2.1166667,296.99998"
@@ -55,8 +38,7 @@
        mode="vertical"
        discard_orig_path="false"
        fuse_paths="false"
-       oposite_fuse="false" />
-    <inkscape:path-effect
+       oposite_fuse="false" /><inkscape:path-effect
        effect="mirror_symmetry"
        start_point="1.9734763,293.00921"
        end_point="1.9734763,297.24255"
@@ -66,8 +48,7 @@
        mode="vertical"
        discard_orig_path="false"
        fuse_paths="false"
-       oposite_fuse="false" />
-    <inkscape:path-effect
+       oposite_fuse="false" /><inkscape:path-effect
        effect="mirror_symmetry"
        start_point="2.004455,293.03283"
        end_point="2.004455,297.26617"
@@ -77,53 +58,36 @@
        mode="vertical"
        discard_orig_path="false"
        fuse_paths="false"
-       oposite_fuse="false" />
-  </defs>
-  <sodipodi:namedview
+       oposite_fuse="false" /></defs><sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="14.78125"
-     inkscape:cy="20.40625"
+     inkscape:zoom="15.839192"
+     inkscape:cx="5.4611372"
+     inkscape:cy="19.035062"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1649"
      inkscape:window-height="1266"
-     inkscape:window-x="556"
-     inkscape:window-y="402"
+     inkscape:window-x="146"
+     inkscape:window-y="378"
      inkscape:window-maximized="0"
      inkscape:pagecheckerboard="true"
-     showguides="false"
      inkscape:showpageshadow="2"
-     inkscape:deskcolor="#d1d1d1" />
-  <metadata
-     id="metadata5">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
+     inkscape:deskcolor="#d1d1d1" /><metadata
+     id="metadata5"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-288.53332)">
-    <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:0.529169;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       id="rect1"
-       width="7.9374976"
-       height="7.9374976"
-       x="0.26458451"
-       y="288.79791" />
-  </g>
-</svg>
+     transform="translate(0,-292.76665)"><path
+       style="fill:none;stroke:#808080;stroke-width:0.396875;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;enable-background:new"
+       d="m 3.8364578,295.58728 -1.7197911,-1.40794 -1.71979118,1.40794"
+       id="path32"
+       sodipodi:nodetypes="ccc" /></g></svg>
