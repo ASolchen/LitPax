@@ -1,0 +1,7 @@
+Used to search and replace using regex while binding UDT elements to the path 
+and the instance name of the data structure:
+Find:
+("opcItemPath": )(".*?")(,\s*)
+Replace:
+$1{"bindType": "parameter","binding": $2}$3
+
