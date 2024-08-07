@@ -216,16 +216,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
-     inkscape:cx="16.970563"
-     inkscape:cy="24.483572"
+     inkscape:cx="16.99266"
+     inkscape:cy="24.505669"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1998"
-     inkscape:window-height="1541"
-     inkscape:window-x="167"
-     inkscape:window-y="332"
+     inkscape:window-height="1401"
+     inkscape:window-x="157"
+     inkscape:window-y="182"
      inkscape:window-maximized="0"
      inkscape:pagecheckerboard="true"
      showguides="false"
@@ -259,17 +259,12 @@
        height="4.5392575"
        x="1.9637046"
        y="290.49704" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.44678px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="3.4818275"
-       y="294.35416"
-       id="text6"><tspan
-         sodipodi:role="line"
-         id="tspan6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:CityBlueprint;-inkscape-font-specification:CityBlueprint;stroke-width:0.264583"
-         x="3.4818275"
-         y="294.35416">I</tspan></text>
+    <path
+       style="font-size:4.44678px;line-height:1.25;font-family:CityBlueprint;-inkscape-font-specification:CityBlueprint;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       d="M 5.0560051,294.35416 H 3.7792928 v -0.33004 h 0.4233995 v -2.57296 H 3.7792928 v -0.33004 h 1.2767123 v 0.33004 H 4.6326056 v 2.57296 h 0.4233995 z"
+       id="text6"
+       aria-label="I"
+       transform="translate(-0.1843156)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 7.6811848,292.76665 -0.7400081,0.74001"

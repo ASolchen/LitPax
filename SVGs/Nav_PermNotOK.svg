@@ -216,16 +216,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.627417"
-     inkscape:cx="17.014757"
-     inkscape:cy="24.483572"
+     inkscape:cx="17.036854"
+     inkscape:cy="24.505669"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1998"
-     inkscape:window-height="1541"
+     inkscape:window-height="1401"
      inkscape:window-x="167"
-     inkscape:window-y="332"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:pagecheckerboard="true"
      showguides="false"
@@ -252,16 +252,11 @@
        style="enable-background:new;opacity:1;vector-effect:none;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458333;stroke-linejoin:round;stop-color:#000000;stop-opacity:1"
        d="m 2.6502077,289.10815 -2.12103975,2.12218 v 3.00373 l 2.18992675,2.1911 H 5.814758 l 2.1227407,-2.12389 v -3.00202 l -2.1899268,-2.1911 z"
        transform="translate(0)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.92904px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.132292"
-       x="2.3034308"
-       y="294.88333"
-       id="text6"><tspan
-         sodipodi:role="line"
-         id="tspan6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:CityBlueprint;-inkscape-font-specification:CityBlueprint;fill:#ffffff;stroke:#ffffff;stroke-width:0.132292"
-         x="2.3034308"
-         y="294.88333">P</tspan></text>
+    <path
+       style="font-size:5.92904px;line-height:1.25;font-family:CityBlueprint;-inkscape-font-specification:CityBlueprint;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke:#ffffff;stroke-width:0.132292"
+       d="m 5.7022066,291.87539 q 0,0.2866 -0.1013263,0.53268 -0.098431,0.24319 -0.2779238,0.42268 -0.222918,0.22292 -0.5268971,0.33582 -0.3039791,0.11001 -0.7671853,0.11001 H 3.4556563 v 1.60675 H 2.8824386 v -4.31071 h 1.1695958 q 0.3879352,0 0.6571738,0.0666 0.2692387,0.0637 0.4776815,0.20266 0.2460783,0.16501 0.3792501,0.41109 0.1360668,0.24608 0.1360668,0.62244 z m -0.596378,0.0145 q 0,-0.22292 -0.078166,-0.38793 -0.078166,-0.16502 -0.2373932,-0.26924 -0.1389618,-0.0897 -0.3184543,-0.12738 -0.1765973,-0.0405 -0.448731,-0.0405 H 3.4556563 v 1.72255 h 0.4834716 q 0.3474046,0 0.5645326,-0.0608 0.2171279,-0.0637 0.3531947,-0.19976 0.1360669,-0.13896 0.1910726,-0.2924 0.057901,-0.15344 0.057901,-0.34451 z"
+       id="text6"
+       aria-label="P"
+       transform="translate(-0.05898928)" />
   </g>
 </svg>
