@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="19"
+   height="28"
+   viewBox="0 0 5.0270831 7.4083333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="GO_P_ValveSO.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="22.798361"
+     inkscape:cx="7.4786078"
+     inkscape:cy="12.040339"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,1,1,0,4.6799779,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,4.6799779,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,1,1,0,4.6799779,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,4.6799779,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="ValveSO_Group"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.00261261,0.30745486)">
+    <g
+       id="ValveSO_Body"
+       inkscape:label="ValveSO_Body"
+       transform="translate(0,-0.65625989)">
+      <path
+         id="ValveLt"
+         style="fill:#ffc0ff;fill-opacity:1;stroke:#000000;stroke-width:3.32974"
+         transform="matrix(0.08350413,0,0,0.07561264,0.21456441,4.2453382)"
+         d="M 0.23412385,-5.7079255 27.5313,16.580868 0.23412385,38.869662 Z"
+         inkscape:label="ValveLt"
+         sodipodi:nodetypes="cccc" />
+      <path
+         id="ValveRt"
+         style="fill:#ffc0ff;fill-opacity:1;stroke:#000000;stroke-width:3.32974"
+         transform="matrix(-0.08350413,0,0,0.07561264,4.8072937,4.245338)"
+         d="M 0.23412385,-5.7079255 27.5313,16.580868 0.23412385,38.869662 Z"
+         inkscape:label="ValveRt"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+       id="ValveSO_Actuator"
+       transform="matrix(1.7076362,0,0,1.7076362,-1.6691404,-4.3780248)"
+       style="stroke-width:0.585605"
+       inkscape:label="ValveSO_Actuator">
+      <rect
+         style="fill:#f9f9f9;stroke:#000000;stroke-width:2.01139"
+         id="rect2"
+         width="19"
+         height="19"
+         x="8.1584816"
+         y="0"
+         transform="matrix(0.07703206,0,0,0.07703206,1.0891296,2.6412632)" />
+      <path
+         style="font-weight:bold;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;stroke-width:6.06166"
+         d="m 64.451019,-0.80669212 q 0,4.29687502 -3.652343,6.99218752 -3.632813,2.6757812 -9.882813,2.6757812 -3.613281,0 -6.308594,-0.625 -2.675781,-0.6445312 -5.019531,-1.6210937 v -6.97265627 h 0.820313 q 2.324218,1.85546877 5.195312,2.85156247 2.890625,0.9960938 5.546875,0.9960938 0.683594,0 1.796875,-0.1171875 1.113281,-0.1171875 1.816406,-0.390625 0.859375,-0.3515625 1.40625,-0.8789063 0.566407,-0.5273437 0.566407,-1.56249997 0,-0.95703125 -0.820313,-1.64062503 -0.800781,-0.703125 -2.363281,-1.0742187 -1.640625,-0.390625 -3.476563,-0.7226563 -1.816406,-0.3515625 -3.417968,-0.8789062 -3.671875,-1.1914063 -5.292969,-3.2226563 -1.601563,-2.0507812 -1.601563,-5.0781246 0,-4.0625 3.632813,-6.621094 3.652344,-2.578125 9.375,-2.578125 2.871094,0 5.664062,0.566406 2.8125,0.546875 4.863282,1.386719 v 6.699219 h -0.800782 q -1.757812,-1.40625 -4.316406,-2.34375 -2.539062,-0.957032 -5.195312,-0.957032 -0.9375,0 -1.875,0.136719 -0.917969,0.117188 -1.777344,0.46875 -0.761719,0.292969 -1.308594,0.898438 -0.546875,0.585937 -0.546875,1.347656 0,1.152344 0.878906,1.777344 0.878907,0.605468 3.320313,1.113281 1.601562,0.3320311 3.066406,0.6445311 1.484375,0.3125 3.183594,0.859375 3.339844,1.09375 4.921875,2.9882813 1.601562,1.875 1.601562,4.88281248 z"
+         id="text2"
+         transform="matrix(0.02556087,0,0,0.02556087,1.1197385,3.4776647)"
+         aria-label="S" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.13247;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 29.5,19 v 9.411305"
+         id="path2"
+         transform="matrix(0.14470729,0,0,0.1293569,-1.8194663,1.7245621)"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>

@@ -5,3 +5,4 @@ Find:
 Replace:
 $1{"bindType": "parameter","binding": $2}$3
 
+Then a regular search and replace "ns\u003d1;s\u003d[PCC_PLC]HS912"so the topic and tag end up being "[{Topic}]{InstanceName}.xxxx"
