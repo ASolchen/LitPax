@@ -11,5 +11,7 @@ User: PaxUser
 Pw: PAX
 
 There's a lot of work to do yet. I feel the basic stucture is working well. Pull requests very welcome. This is too much work to do on my own! 
+I added a short video about this project:
+![Youtube Link](https://www.youtube.com/watch?v=22jKPR5ky4w)
 
 Thanks!
