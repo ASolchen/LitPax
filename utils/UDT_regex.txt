@@ -1,8 +1,35 @@
-Used to search and replace using regex while binding UDT elements to the path 
+Browse to the tag using the OPC server. Create an instance from the tag structure.
+Create a new UDT from that tag. Name it to the UDT type, e.g. "P_Motor"
+Delete the sub structures (P_Alarms, CmdSrc, Etc.) and the elements that start with "Wrk" (I believe these are the internal "working" values for the AOI)
+Export the UDT json and open it in an editor with RegEx capabilities (Sublime, etc).
+
+Add the following "parameters" key between "name" and "tagType":
+
+  "parameters": {
+    "Tagname": {
+      "dataType": "String",
+      "value": {
+        "bindType": "parameter",
+        "binding": "{InstanceName}"
+      }
+    },
+    "Topic": {
+      "dataType": "String"
+    }
+  },
+
+Next, search and replace using regex while binding UDT elements to the path 
 and the instance name of the data structure:
 Find:
 ("opcItemPath": )(".*?")(,\s*)
 Replace:
 $1{"bindType": "parameter","binding": $2}$3
 
-Then a regular search and replace "ns\u003d1;s\u003d[PCC_PLC]HS912"so the topic and tag end up being "[{Topic}]{InstanceName}.xxxx"
+Then do a regular search and replace "ns\u003d1;s\u003d[PCC_PLC]HS912"so the topic and tag end up being "[{Topic}]{TagName}.xxxx"
+
+Import it back in, overwriting the old one.
+Create an instance of this type. Set the parameters "Topic" and if nessasary "Tagname". By default the stucture ties the instance name as the base Tagname but you can change it if you want them named something else. At this point the elements should be reading.
+
+Now we need to add in the sub-UDTs like P_Alarms, CmdSrc, if applicable.
+
+Open the UDT definition in the UDT editor. Click "create new data type instance" and select the required type. Under the parameters, bind the "BaseTag" to {Tagname} and "BaseTopic" to {Topic}
