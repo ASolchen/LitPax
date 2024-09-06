@@ -11,6 +11,682 @@
             "binding": "{InstanceName}"
           }
         },
+<<<<<<< HEAD
+=======
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_HasOperLocked"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasOperLocked",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_ExtOverLock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_ExtOverLock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.MRdy_Rel"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_Rel",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_HasMaint"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasMaint",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_Maint"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Maint",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_ProgOperSel"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_ProgOperSel",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_Hand"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Hand",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_HasOper"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasOper",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.ORdy_Lock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Lock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_ExtReqInh"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_ExtReqInh",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_OperLocked"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_OperLocked",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_OoS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_OoS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_Normal"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Normal",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.PCmd_Lock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Lock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.P_CmdSrc"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "P_CmdSrc",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_eSrc"
+          },
+          "valueSource": "opc",
+          "dataType": "Int2",
+          "name": "Sts_eSrc",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.OCmd_Normal"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Normal",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.MCmd_OoS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_OoS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_PCmdProgAsLevel"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_PCmdProgAsLevel",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_ProgOperLock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_ProgOperLock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.HMI_Lib"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "HMI_Lib",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.OCmd_Lock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Lock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_PCmdPriority"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_PCmdPriority",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.MRdy_IS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_IS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.MCmd_Rel"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_Rel",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.ORdy_Prog"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Prog",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_Prog"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Prog",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Inp_Hand"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_Hand",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_ProgLocked"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_ProgLocked",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_ProgPwrUp"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_ProgPwrUp",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.OCmd_Prog"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Prog",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_HasExt"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasExt",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.MRdy_Acq"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_Acq",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.HMI_Type"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "HMI_Type",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_ProgNormal"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_ProgNormal",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.ORdy_Oper"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Oper",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Inp_ExtInh"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_ExtInh",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_ProgReqInh"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_ProgReqInh",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.PCmd_Oper"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Oper",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_HasProg"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasProg",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_HasProgLocked"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasProgLocked",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.OCmd_Unlock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Unlock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_bSrc"
+          },
+          "valueSource": "opc",
+          "dataType": "Int2",
+          "name": "Sts_bSrc",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_MAcqRcvd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_MAcqRcvd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.OCmd_Oper"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Oper",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_Oper"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Oper",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Inp_Ovrd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_Ovrd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_HasMOoS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasMOoS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_ExtAcqAsLevel"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_ExtAcqAsLevel",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.PCmd_Prog"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Prog",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_PCmdLockAsLevel"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_PCmdLockAsLevel",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.ORdy_Unlock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Unlock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.MCmd_IS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_IS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.MCmd_Acq"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_Acq",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Cfg_OvrdOverLock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_OvrdOverLock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.MRdy_OoS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_OoS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.PCmd_Normal"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Normal",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_Ext"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Ext",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.ORdy_Normal"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Normal",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.CmdSrc.Sts_Ovrd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Ovrd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        }
+      ]
+    },
+    {
+      "typeColor": -7667830,
+      "name": "P_AIn",
+      "parameters": {
+        "Tagname": {
+          "dataType": "String",
+          "value": {
+            "bindType": "parameter",
+            "binding": "{InstanceName}"
+          }
+        },
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
         "Topic": {
           "dataType": "String",
           "value": ""
@@ -21,7 +697,11 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Sts_FullStall"
+=======
+            "binding": "[{Topic}]{Tagname}.Cfg_HiHiResetReqd"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
@@ -32,7 +712,33 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Inp_IOFault"
+=======
+            "binding": "[{Topic}]{Tagname}.Val_PVEUMax"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Val_PVEUMax",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoOffDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoOffDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_FailSuppress"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
@@ -43,7 +749,11 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Sts_IntlkTripSuppressed"
+=======
+            "binding": "[{Topic}]{Tagname}.Err_Alarm"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
@@ -54,7 +764,22 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Val_Fdbk"
+=======
+            "binding": "[{Topic}]{Tagname}.Err_EU"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Err_EU",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailSeverity"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Int4",
@@ -65,6 +790,626 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
+=======
+            "binding": "[{Topic}]{Tagname}.Inp_FailGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_FailGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_Desc"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "Cfg_Desc",
+          "tagGroup": "Slow",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_PVEUMin"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_PVEUMin",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Alm_Lo"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm_Lo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Err_Filt"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Err_Filt",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoLoLim"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoLoLim",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiHiSeverity"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_HiHiSeverity",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_FailAck"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_FailAck",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_PV"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Inp_PV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Reset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailAckReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_FailAckReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_HiUnshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_HiUnshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiSeverity"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_HiSeverity",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_InpRawMin"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_InpRawMin",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailDB"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_FailDB",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_Reset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasLoAlm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasLoAlm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_LoLoUnsuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_LoLoUnsuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_LoLoSuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_LoLoSuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_PVEUMin"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Val_PVEUMin",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MSet_SubstPV"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "MSet_SubstPV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.SrcQ_IO"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "SrcQ_IO",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FiltTC"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_FiltTC",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_LoAck"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_LoAck",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Alm_Hi"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm_Hi",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailOnDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_FailOnDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiHiDB"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_HiHiDB",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_FailDisabled"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_FailDisabled",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoLoSeverity"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_LoLoSeverity",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_HiHiGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_HiHiGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoShelved"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoShelved",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Fail"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Fail",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoLoGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoLoGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiResetReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HiResetReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_PVEUMax"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_PVEUMax",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_LoLoAck"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_LoLoAck",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiHiDisabled"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiHiDisabled",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MRdy_SubstPV"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_SubstPV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.OCmd_ResetAckAll"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_ResetAckAll",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.ORdy_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Reset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MCmd_InpPV"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_InpPV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasMoreObj"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasMoreObj",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_MaintByp"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_MaintByp",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MCmd_SubstPV"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_SubstPV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiHiShelved"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiHiShelved",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_FailSuppressed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_FailSuppressed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Err_Timer"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Err_Timer",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Lo"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Lo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoLoDisabled"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoLoDisabled",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.OCmd_ClearCapt"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_ClearCapt",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Set_SimPV"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Set_SimPV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Ack_Lo"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Ack_Lo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_AlmInh"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_AlmInh",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_UseChanSrcQ"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_UseChanSrcQ",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiHiSuppressed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiHiSuppressed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
             "binding": "[{Topic}]{Tagname}.HMI_Tab"
           },
           "valueSource": "opc",
@@ -76,6 +1421,592 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
+=======
+            "binding": "[{Topic}]{Tagname}.Inp_PVBad"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_PVBad",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Alm_LoLo"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm_LoLo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_PVUncertain"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_PVUncertain",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoLoSuppressed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoLoSuppressed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_RdyAck"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_RdyAck",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Alm_HiHi"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm_HiHi",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_PVMaxCapt"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Val_PVMaxCapt",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_Tag"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "Cfg_Tag",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_LoUnsuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_LoUnsuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiHiOffDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_HiHiOffDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasHiHiAlm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasHiHiAlm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MRdy_InpPV"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_InpPV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.P_AIn"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "P_AIn",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.SrcQ"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "SrcQ",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_Area"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "Cfg_Area",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_HiHiUnsuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_HiHiUnsuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_LoLoUnshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_LoLoUnshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Ack_HiHi"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Ack_HiHi",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_InpRawMax"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_InpRawMax",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiHiOnDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_HiHiOnDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasHiAlm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasHiAlm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Val",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_PVSrcQ"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Inp_PVSrcQ",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoDB"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoDB",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_LoLoGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_LoLoGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoLoOnDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoLoOnDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoLoDB"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoLoDB",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailLoLim"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_FailLoLim",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoLoGateDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoLoGateDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiHiCmp"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiHiCmp",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiCmp"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiCmp",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoLim"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoLim",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_Notify"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_Notify",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_NoSubstPV"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_NoSubstPV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_FailGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_FailGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailGateDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_FailGateDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailResetReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_FailResetReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_InpPV"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Val_InpPV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiDisabled"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiDisabled",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Err_Raw"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Err_Raw",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoLoCmp"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoLoCmp",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_HiHiUnshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_HiHiUnshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Ack_Hi"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Ack_Hi",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiAckReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HiAckReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.HMI_Type"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "HMI_Type",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.ORdy_ResetAckAll"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_ResetAckAll",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_Label"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "Cfg_Label",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoLoResetReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_LoLoResetReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_LoUnshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_LoUnshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_PVUncertain"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_PVUncertain",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiDB"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_HiDB",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailOffDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_FailOffDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
             "binding": "[{Topic}]{Tagname}.EnableIn"
           },
           "valueSource": "opc",
@@ -87,7 +2018,11 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Sts_IOFaultShelved"
+=======
+            "binding": "[{Topic}]{Tagname}.Sts_Hi"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
@@ -98,6 +2033,504 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
+=======
+            "binding": "[{Topic}]{Tagname}.Alm_Fail"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm_Fail",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasChanObj"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasChanObj",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiShelved"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiShelved",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiHiGateDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_HiHiGateDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_Fault"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_Fault",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoOnDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoOnDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoGateDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoGateDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiOffDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_HiOffDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_HiUnsuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_HiUnsuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailHiLim"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_FailHiLim",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoLoOffDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_LoLoOffDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_PVBad"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_PVBad",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoResetReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_LoResetReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Err"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Err",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiHiAckReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HiHiAckReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiHi"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiHi",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Ack_LoLo"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Ack_LoLo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_NotifyAll"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_NotifyAll",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasLoLoAlm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasLoLoAlm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiGateDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_HiGateDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_HiHiSuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_HiHiSuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoDisabled"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoDisabled",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_FailUnsuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_FailUnsuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_PVMinCapt"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Val_PVMinCapt",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_HiSuppressed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiSuppressed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_HiSuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_HiSuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.HMI_Lib"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "HMI_Lib",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiHiLim"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_HiHiLim",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoCmp"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoCmp",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_FailShelved"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_FailShelved",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_LoGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_LoGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoSuppressed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoSuppressed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoLoShelved"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoLoShelved",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Ack_Fail"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Ack_Fail",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_UnackAlmC"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_UnackAlmC",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_RdyReset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_RdyReset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_PVNotify"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Inp_PVNotify",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.EnableOut"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "EnableOut",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoLoAckReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_LoLoAckReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_PVDecPlcs"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_PVDecPlcs",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_HiHiAck"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_HiHiAck",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_SubstPV"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_SubstPV",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HiOnDly"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_HiOnDly",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasFailAlm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasFailAlm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_FailUnshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_FailUnshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
             "binding": "[{Topic}]{Tagname}.Inp_Sim"
           },
           "valueSource": "opc",
@@ -109,7 +2542,11 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Cfg_StartHornT"
+=======
+            "binding": "[{Topic}]{Tagname}.Cfg_HiLim"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Float4",
@@ -120,7 +2557,11 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Sts_TransitStallSuppressed"
+=======
+            "binding": "[{Topic}]{Tagname}.PCmd_ClearCapt"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
@@ -131,7 +2572,11 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Sts_BypActive"
+=======
+            "binding": "[{Topic}]{Tagname}.PCmd_HiAck"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
@@ -142,6 +2587,7 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Out"
           },
           "valueSource": "opc",
@@ -242,6 +2688,9 @@
           "opcItemPath": {
             "bindType": "parameter",
             "binding": "[{Topic}]{Tagname}.SrcQ_IO"
+=======
+            "binding": "[{Topic}]{Tagname}.Cfg_LoSeverity"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Int4",
@@ -252,7 +2701,158 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Val_Fault"
+=======
+            "binding": "[{Topic}]{Tagname}.Sts_HiHiGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_HiHiGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LoLo"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LoLo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_HiGate"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_HiGate",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_FailCmp"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_FailCmp",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.OCmd_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Reset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_LoSuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_LoSuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LoAckReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_LoAckReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_EU"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "Cfg_EU",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        }
+      ]
+    },
+    {
+      "typeColor": -185,
+      "name": "P_Alarm",
+      "parameters": {
+        "BaseTag": {
+          "dataType": "String"
+        },
+        "BaseTopic": {
+          "dataType": "String"
+        }
+      },
+      "tagType": "UdtType",
+      "tags": [
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.OCmd_Unshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Unshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.OCmd_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Reset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.MRdy_Enable"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_Enable",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Alm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Val_MinToUnshelve"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Int4",
@@ -285,22 +2885,49 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Cfg_FullStallSeverity"
           },
           "valueSource": "opc",
           "dataType": "Int4",
           "name": "Cfg_FullStallSeverity",
+=======
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.P_Alarm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "P_Alarm",
           "tagType": "AtomicTag",
           "opcServer": "Ignition OPC UA Server"
         },
         {
           "opcItemPath": {
             "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Err_Severity"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Err_Severity",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Nrdy_Fail"
           },
           "valueSource": "opc",
           "dataType": "Boolean",
           "name": "Nrdy_Fail",
+=======
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Cfg_Severity"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_Severity",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           "tagType": "AtomicTag",
           "opcServer": "Ignition OPC UA Server"
         },
@@ -439,7 +3066,132 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Cfg_IOFaultSeverity"
+=======
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.PCmd_Unshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Unshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.PCmd_Ack"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Ack",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.ORdy_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Reset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.MRdy_Disable"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_Disable",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.ORdy_Unshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Unshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Cfg_AllowShelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_AllowShelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Inp"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Cfg_Exists"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_Exists",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.OCmd_Shelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Shelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.HMI_Tab"
+          },
+          "valueSource": "opc",
+          "dataType": "Int1",
+          "name": "HMI_Tab",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.PCfg_AllowExist"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCfg_AllowExist",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Val_Notify"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Int4",
@@ -549,22 +3301,38 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Cfg_IntlkTripSeverity"
           },
           "valueSource": "opc",
           "dataType": "Int4",
           "name": "Cfg_IntlkTripSeverity",
+=======
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Inp_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_Reset",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           "tagType": "AtomicTag",
           "opcServer": "Ignition OPC UA Server"
         },
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Cfg_XCmdResets"
           },
           "valueSource": "opc",
           "dataType": "Boolean",
           "name": "Cfg_XCmdResets",
+=======
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Cfg_MaxShelfT"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_MaxShelfT",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           "tagType": "AtomicTag",
           "opcServer": "Ignition OPC UA Server"
         },
@@ -1474,6 +4242,7 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Inp_Ovrd"
           },
           "valueSource": "opc",
@@ -1937,21 +4706,32 @@
           "opcItemPath": {
             "bindType": "parameter",
             "binding": "[{Topic}]{Tagname}.HMI_Lib"
+=======
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.MCmd_Enable"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
-          "dataType": "String",
-          "name": "HMI_Lib",
+          "dataType": "Boolean",
+          "name": "MCmd_Enable",
           "tagType": "AtomicTag",
           "opcServer": "Ignition OPC UA Server"
         },
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{Tagname}.Sts_FullStallShelved"
           },
           "valueSource": "opc",
           "dataType": "Boolean",
           "name": "Sts_FullStallShelved",
+=======
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.HMI_Lib"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "HMI_Lib",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           "tagType": "AtomicTag",
           "opcServer": "Ignition OPC UA Server"
         },
@@ -4384,22 +7164,38 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{TagName}.Cfg_AllowLocal"
           },
           "valueSource": "opc",
           "dataType": "Boolean",
           "name": "Cfg_AllowLocal",
+=======
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.ORdy_Shelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Shelve",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           "tagType": "AtomicTag",
           "opcServer": "Ignition OPC UA Server"
         },
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{Topic}]{TagName}.XCmd_StartFwd"
           },
           "valueSource": "opc",
           "dataType": "Boolean",
           "name": "XCmd_StartFwd",
+=======
+            "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.MCmd_Disable"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_Disable",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           "tagType": "AtomicTag",
           "opcServer": "Ignition OPC UA Server"
         },
@@ -10893,18 +13689,1538 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.OCmd_Unshelve"
           },
           "valueSource": "opc",
           "dataType": "Boolean",
           "name": "OCmd_Unshelve",
+=======
+            "binding": "[{Topic}]{Tagname}.Sts_FullStall"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_FullStall",
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           "tagType": "AtomicTag",
           "opcServer": "Ignition OPC UA Server"
         },
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.OCmd_Reset"
+=======
+            "binding": "[{Topic}]{Tagname}.Inp_IOFault"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_IOFault",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_IntlkTripSuppressed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_IntlkTripSuppressed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_Fdbk"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_Fdbk",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.HMI_Tab"
+          },
+          "valueSource": "opc",
+          "dataType": "Int1",
+          "name": "HMI_Tab",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.EnableIn"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "EnableIn",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_IOFaultShelved"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_IOFaultShelved",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_Sim"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_Sim",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_StartHornT"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_StartHornT",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_TransitStallSuppressed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_TransitStallSuppressed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_BypActive"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_BypActive",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Out"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Out",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_IOFaultDisabled"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_IOFaultDisabled",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_IOFault"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_IOFault",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasClosedLS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasClosedLS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_FullStallSuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_FullStallSuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_ShedOnTransitStall"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_ShedOnTransitStall",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Nrdy_IOFault"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Nrdy_IOFault",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Closing"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Closing",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_Lock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Lock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.SrcQ_IO"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "SrcQ_IO",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_Fault"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_Fault",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasPermObj"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasPermObj",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasTransitStallAlm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasTransitStallAlm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FullStallSeverity"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_FullStallSeverity",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Nrdy_Fail"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Nrdy_Fail",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MRdy_Bypass"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_Bypass",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Hand"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Hand",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_ClosedLS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_ClosedLS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_IntlkAvail"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_IntlkAvail",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Oper"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Oper",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.P_ValveSO"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "P_ValveSO",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Reset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_FullStallUnsuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_FullStallUnsuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_ShedOnFullStall"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_ShedOnFullStall",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_ProgLocked"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_ProgLocked",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FullStallResetReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_FullStallResetReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_OvrdPermIntlk"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_OvrdPermIntlk",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_IOFaultSeverity"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_IOFaultSeverity",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_NotRdy"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_NotRdy",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_TransitStallAck"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_TransitStallAck",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MCmd_Check"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_Check",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_Sts"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_Sts",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_Open"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Open",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_Tag"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "Cfg_Tag",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Maint"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Maint",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Alm_IntlkTrip"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm_IntlkTrip",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_AlmInh"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_AlmInh",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_IntlkTripSeverity"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_IntlkTripSeverity",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_XCmdResets"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_XCmdResets",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_IntlkTripSuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_IntlkTripSuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Out_Horn"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Out_Horn",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_TransitStallSeverity"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Cfg_TransitStallSeverity",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Nrdy_CfgErr"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Nrdy_CfgErr",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_PermOK"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_PermOK",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_Notify"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_Notify",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Err_Alarm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Err_Alarm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.ORdy_Unlock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Unlock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_FullStallUnshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_FullStallUnshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_HornInh"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_HornInh",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_Prog"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Prog",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_TransitStallResetReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_TransitStallResetReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_Label"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "Cfg_Label",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_SimFdbkT"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_SimFdbkT",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MRdy_Rel"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_Rel",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "name": "CmdSrc",
+          "typeId": "CmdSrc",
+          "parameters": {
+            "BaseTag": {
+              "dataType": "String",
+              "value": {
+                "bindType": "parameter",
+                "binding": "{Tagname}"
+              }
+            },
+            "BaseTopic": {
+              "dataType": "String",
+              "value": {
+                "bindType": "parameter",
+                "binding": "{Topic}"
+              }
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "OCmd_Prog",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_Ovrd",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_Oper",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Unlock",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_OoS",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_Acq",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_bSrc",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_MAcqRcvd",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_OoS",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Prog",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_HasMOoS",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_HasProgLocked",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Inp_Ovrd",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_ProgNormal",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Inp_ExtInh",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Inp_Hand",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_HasOper",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Normal",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_OperLocked",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_HasOperLocked",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_ProgLocked",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_Maint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_HasExt",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HMI_Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Oper",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_Hand",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Prog",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Lock",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_ExtOverLock",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_Prog",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "P_CmdSrc",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_IS",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_ProgOperLock",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_eSrc",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_ProgPwrUp",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HMI_Lib",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_OoS",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_ExtReqInh",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_ExtAcqAsLevel",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_Acq",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_Normal",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_PCmdPriority",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_PCmdProgAsLevel",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Unlock",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Unlock",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_Rel",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Oper",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Lock",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Normal",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_ProgReqInh",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_OvrdOverLock",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_Rel",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Lock",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_HasProg",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_HasMaint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_Ext",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Normal",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_ProgOperSel",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Oper",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_IS",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_PCmdLockAsLevel",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_OvrdCmd"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Inp_OvrdCmd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_UseClosedLS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_UseClosedLS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_TransitStallUnsuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_TransitStallUnsuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_NBIntlkOK"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_NBIntlkOK",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_Desc"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "Cfg_Desc",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Opened"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Opened",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "typeColor": -185,
+          "name": "TransitStall",
+          "typeId": "P_Alarm",
+          "parameters": {
+            "BaseTag": {
+              "dataType": "String",
+              "value": {
+                "bindType": "parameter",
+                "binding": "{Tagname}"
+              }
+            },
+            "BaseTopic": {
+              "dataType": "String",
+              "value": {
+                "bindType": "parameter",
+                "binding": "{Topic}"
+              }
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "ORdy_Reset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_Disable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Unshelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Shelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Inp",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_Exists",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "EnableOut",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_Tag",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Shelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_AllowShelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCfg_AllowExist",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HMI_Tab",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HMI_Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "EnableIn",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Reset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_Test",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Inp_Reset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_Cond",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Err_Timer",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Ack",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_AckReqd",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Inp_OoS",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Ack",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Unshelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_ResetReqd",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Val_MinToUnshelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Ack",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_RdyReset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_Severity",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Err_Severity",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Shelved",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Unshelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "P_Alarm",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Suppressed",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_AllowDisable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_AlmInh",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_RdyAck",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Val_SecToUnshelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_Err",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_MaxShelfT",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_Test",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Com_AE",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_Enable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Suppress",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Val_Notify",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Unsuppress",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_AlmMinOnT",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Alm",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_Enable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HMI_Lib",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Ack",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_Disable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Disabled",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Reset",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_IOFaultSuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_IOFaultSuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasMoreObj"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasMoreObj",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Prog"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Prog",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_IntlkTripResetReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_IntlkTripResetReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Ack_IntlkTrip"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Ack_IntlkTrip",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MRdy_Check"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MRdy_Check",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_IOFaultAckReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_IOFaultAckReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.OCmd_Unlock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Unlock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_UseOpenLS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_UseOpenLS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_NotifyAll"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_NotifyAll",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_TransitStall"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_TransitStall",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_TransitStallShelved"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_TransitStallShelved",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasStatsObj"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasStatsObj",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Err"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Err",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasIOFaultAlm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasIOFaultAlm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_Ovrd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_Ovrd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_Reset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_TransitStallT"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_TransitStallT",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.EnableOut"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "EnableOut",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_IOFaultSuppressed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_IOFaultSuppressed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.ORdy_ResetAckAll"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_ResetAckAll",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.OCmd_Reset"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
@@ -10915,6 +15231,7 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.MRdy_Enable"
           },
           "valueSource": "opc",
@@ -10927,6 +15244,9 @@
           "opcItemPath": {
             "bindType": "parameter",
             "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Alm"
+=======
+            "binding": "[{Topic}]{Tagname}.Nrdy_Intlk"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
@@ -10970,7 +15290,22 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.P_Alarm"
+=======
+            "binding": "[{Topic}]{Tagname}.Sts_Closed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Closed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_TransitStallUnshelve"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
@@ -10992,7 +15327,308 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Cfg_Severity"
+=======
+            "binding": "[{Topic}]{Tagname}.Cfg_Area"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "Cfg_Area",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Opening"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Opening",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_Close"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Close",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_IntlkTripAckReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_IntlkTripAckReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_TransitStallSuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_TransitStallSuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_IntlkTripUnsuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_IntlkTripUnsuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Horn"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Horn",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Ovrd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Ovrd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_ExtInh"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_ExtInh",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Available"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Available",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Nrdy_OoS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Nrdy_OoS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_IntlkTripDisabled"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_IntlkTripDisabled",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_IOFaultUnshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_IOFaultUnshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_IntlkTripUnshelve"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_IntlkTripUnshelve",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_OperLocked"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_OperLocked",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.OCmd_Close"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Close",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Alm_IOFault"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm_IOFault",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasFullStallAlm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasFullStallAlm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Ack_TransitStall"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Ack_TransitStall",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_IntlkTripAck"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_IntlkTripAck",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_MAcqRcvd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_MAcqRcvd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_IOFaultAck"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_IOFaultAck",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Nrdy_Perm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Nrdy_Perm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_NBPermOK"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_NBPermOK",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_Oper"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Oper",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.OCmd_Open"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "OCmd_Open",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasIntlkTripAlm"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasIntlkTripAlm",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PSet_Owner"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Int4",
@@ -11014,7 +15650,658 @@
         {
           "opcItemPath": {
             "bindType": "parameter",
+<<<<<<< HEAD
             "binding": "[{BaseTopic}]{BaseTag}.{InstanceName}.Sts_RdyReset"
+=======
+            "binding": "[{Topic}]{Tagname}.HMI_Lib"
+          },
+          "valueSource": "opc",
+          "dataType": "String",
+          "name": "HMI_Lib",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_FullStallShelved"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_FullStallShelved",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_Normal"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Normal",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "typeColor": -185,
+          "name": "IntlkTrip",
+          "typeId": "P_Alarm",
+          "parameters": {
+            "BaseTag": {
+              "dataType": "String",
+              "value": {
+                "bindType": "parameter",
+                "binding": "{Tagname}"
+              }
+            },
+            "BaseTopic": {
+              "dataType": "String",
+              "value": {
+                "bindType": "parameter",
+                "binding": "{Topic}"
+              }
+            }
+          },
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "Cfg_Severity",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Unshelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Err_Severity",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_RdyReset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Val_MinToUnshelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Ack",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_AlmMinOnT",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_RdyAck",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_AllowDisable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "P_Alarm",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_Test",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Suppressed",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_AlmInh",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_MaxShelfT",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Val_SecToUnshelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Suppress",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Shelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Unsuppress",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Alm",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Val_Notify",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_Enable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Ack",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Disabled",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_Enable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Sts_Err",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HMI_Lib",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Reset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_Disable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Inp",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Reset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "EnableOut",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_Tag",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_AllowShelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Com_AE",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HMI_Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Err_Timer",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MRdy_Disable",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "OCmd_Shelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCfg_AllowExist",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "HMI_Tab",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_Cond",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Ack",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "EnableIn",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Inp_Reset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Ack",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_AckReqd",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "MCmd_Test",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Reset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Shelved",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Inp_OoS",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_ResetReqd",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "PCmd_Unshelve",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cfg_Exists",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ORdy_Unshelve",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_FullStallAck"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_FullStallAck",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_IOFaultUnsuppress"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_IOFaultUnsuppress",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_IntlkTrip"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_IntlkTrip",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Normal"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Normal",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Ack_FullStall"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Ack_FullStall",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.PCmd_Unlock"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "PCmd_Unlock",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FullStallT"
+          },
+          "valueSource": "opc",
+          "dataType": "Float4",
+          "name": "Cfg_FullStallT",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Alm_TransitStall"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm_TransitStall",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Err_Sim"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Err_Sim",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_Bypass"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_Bypass",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_LSFail"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_LSFail",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_FullStallSuppressed"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_FullStallSuppressed",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.ORdy_Open"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Open",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_FailOpen"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_FailOpen",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_MaintByp"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_MaintByp",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_ShedOnIOFault"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_ShedOnIOFault",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Inp_IntlkOK"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Inp_IntlkOK",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MCmd_Rel"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_Rel",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.ORdy_Close"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Close",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_LSFail"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_LSFail",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_FullStallDisabled"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_FullStallDisabled",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_OCmdResets"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_OCmdResets",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.SrcQ"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "SrcQ",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_OoS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_OoS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasIntlkObj"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasIntlkObj",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_ExtReqInh"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_ExtReqInh",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_ProgReqInh"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Sts_ProgReqInh",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Alm_FullStall"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Alm_FullStall",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.MCmd_Bypass"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "MCmd_Bypass",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_HasOpenLS"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_HasOpenLS",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.ORdy_Reset"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "ORdy_Reset",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Cfg_TransitStallAckReqd"
+          },
+          "valueSource": "opc",
+          "dataType": "Boolean",
+          "name": "Cfg_TransitStallAckReqd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_Cmd"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_Cmd",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Val_Owner"
+          },
+          "valueSource": "opc",
+          "dataType": "Int4",
+          "name": "Val_Owner",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "opcItemPath": {
+            "bindType": "parameter",
+            "binding": "[{Topic}]{Tagname}.Sts_RdyReset"
+>>>>>>> 79bbaee4e224f08df1886cdd3fd6c9b8a9f5dc32
           },
           "valueSource": "opc",
           "dataType": "Boolean",
