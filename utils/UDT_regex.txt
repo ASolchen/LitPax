@@ -33,3 +33,5 @@ Create an instance of this type. Set the parameters "Topic" and if nessasary "Ta
 Now we need to add in the sub-UDTs like P_Alarms, CmdSrc, if applicable.
 
 Open the UDT definition in the UDT editor. Click "create new data type instance" and select the required type. Under the parameters, bind the "BaseTag" to {Tagname} and "BaseTopic" to {Topic}
+
+Once it's all working, Export the json.
